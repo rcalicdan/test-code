@@ -119,7 +119,7 @@ class AsarinosFilteredPropertyStyles
             }
 
             .asarinos-property-image {
-                height: 280px;
+                height: 220px;
                 background-size: cover;
                 background-position: center;
                 position: relative;
@@ -177,7 +177,7 @@ class AsarinosFilteredPropertyStyles
             }
 
             .asarinos-property-content {
-                padding: 28px;
+                padding: 20px;
                 flex-grow: 1;
                 display: flex;
                 flex-direction: column;
@@ -185,7 +185,7 @@ class AsarinosFilteredPropertyStyles
 
             .asarinos-property-title {
                 margin: 0 0 16px 0;
-                font-size: 22px;
+                font-size: 20px;
                 font-weight: 700;
                 line-height: 1.3;
                 color: var(--kd-dark);
@@ -196,20 +196,12 @@ class AsarinosFilteredPropertyStyles
                 color: var(--kd-gold-dark);
             }
 
-            .asarinos-property-excerpt {
-                color: var(--kd-gray);
-                line-height: 1.6;
-                margin: 0 0 24px 0;
-                flex-grow: 1;
-                font-size: 15px;
-            }
-
             .asarinos-property-features {
                 display: flex;
                 flex-wrap: wrap;
-                gap: 16px;
-                margin-bottom: 20px;
-                padding: 20px 0;
+                gap: 12px;
+                margin-bottom: 16px;
+                padding: 16px 0;
                 border-top: 1px solid #f0f0f0;
                 border-bottom: 1px solid #f0f0f0;
             }
@@ -248,7 +240,7 @@ class AsarinosFilteredPropertyStyles
                 align-items: center;
                 gap: 10px;
                 font-weight: 500;
-                margin-top: 12px;
+                margin-top: 8px;
             }
 
             .agent-icon {
@@ -258,7 +250,7 @@ class AsarinosFilteredPropertyStyles
             }
 
             .asarinos-property-footer {
-                padding: 0 28px 28px 28px;
+                padding: 0 20px 20px 20px;
             }
 
             .asarinos-property-cta {
@@ -420,7 +412,7 @@ class AsarinosFilteredPropertyStyles
                 }
 
                 .asarinos-property-image {
-                    height: 240px;
+                    height: 200px;
                 }
 
                 .asarinos-property-badges {
@@ -428,7 +420,11 @@ class AsarinosFilteredPropertyStyles
                 }
 
                 .asarinos-property-content {
-                    padding: 24px;
+                    padding: 16px;
+                }
+
+                .asarinos-property-title {
+                    font-size: 18px;
                 }
 
                 .asarinos-property-features {
@@ -474,11 +470,11 @@ class AsarinosFilteredPropertyStyles
                 }
 
                 .asarinos-property-content {
-                    padding: 20px;
+                    padding: 16px;
                 }
 
                 .asarinos-property-footer {
-                    padding: 0 20px 20px 20px;
+                    padding: 0 16px 16px 16px;
                 }
 
                 .results-title {

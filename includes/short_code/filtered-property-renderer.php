@@ -117,9 +117,6 @@ class AsarinosFilteredPropertyRenderer extends AsarinosPropertyRenderer
     ?>
         <div class="asarinos-property-content">
             <h3 class="asarinos-property-title"><?= esc_html($property->post_title) ?></h3>
-            <p class="asarinos-property-excerpt">
-                <?= esc_html(AsarinosPropertyHelpers::get_property_excerpt($property, 100)) ?>
-            </p>
             <?php self::render_property_features($meta); ?>
             <?php self::render_property_agent($meta); ?>
         </div>
@@ -226,6 +223,4 @@ class AsarinosFilteredPropertyRenderer extends AsarinosPropertyRenderer
         </div>
     <?php
     }
-
-
 }
