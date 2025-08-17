@@ -1,0 +1,421 @@
+.irs--flat .irs-bar {
+    background-color: #997B3F !important;
+}
+
+.irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+    background-color: #141F34 !important;
+}
+
+.irs--flat .irs-handle>i:first-child {
+    background-color: #141F34 !important;
+}
+
+.irs--flat.irs-with-grid {
+    height: 60px;
+    width: 100%;
+    margin: 5px;
+}
+
+.asarinos label {
+    display: inline;
+    width: 100;
+}
+
+.asarinos .elementor-column {
+    padding: 5px 7px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#search_asarino {
+    background-color: #997B3F;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin: 9px;
+    margin-right: 30px;
+}
+
+#search_results  {
+    margin-top: 40px;
+}
+
+#search_results .property {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    margin-top: 40px;
+    text-align: right;
+}
+
+#search_results .picture {
+    height: auto;
+    width: 422px;
+    display: inline-block;
+    overflow: hidden;
+    background: #262626;
+}
+
+#search_results .picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.property h2.title {
+    font-size: 25px;
+    margin: 24px 0;
+    display: block;
+    vertical-align: top;
+    margin-top: 50px;
+    color: #141F33;
+}
+
+a.property {
+    margin: 10px 10px 0 0;
+    
+}
+
+.property .extra-info {
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 3%;
+    vertical-align: top;
+    display: inline-block;
+    width: calc(100% - 422px);
+    text-align: left;
+    text-align: justify;
+    vertical-align: bottom;
+    padding-bottom: 107px;
+}
+
+.property .button {
+    background-color: #997b3f !important;
+}
+
+.property .extra-info span.price {
+    color: #141F33;
+    margin-top: -7px;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+.property .extra-info span.meters, .property .extra-info span.rooms, .extra-info span.commune {
+    color: #141F33;
+}
+#map{
+    width: 100% !important;
+  }
+
+.asarino_property_details {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.asarinos_description {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.splide__slide {
+    text-align: center;
+}
+
+.splide__track {
+    background: grey;
+}
+
+.agent-info {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #141f33;
+}
+
+button.splide__arrow svg {
+    margin-top: 12px;
+}
+
+button.splide__arrow.splide__arrow--prev svg {
+    margin-left: -14px;
+}
+
+span.per_meter {    
+    color: #141F33;
+}
+
+span.city {
+    color: #141F33;
+    font-size: 15px;
+}
+
+
+.extra-info span {
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+h2 span, .extra-info h2 span.commune  {
+    margin-right: 0px;
+}
+
+.asarinos input[type="text"], .asarinos select {
+    border: 1px solid #997B3F;
+    line-height: 32px;
+    padding: 8px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.asarinos select {
+    height: 49px;
+}
+
+.asarinos label {
+    display: inline;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+    color: #997B3F;
+}
+
+.align-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%; /* Ważne: Rodzic tej kolumny musi mieć zdefiniowaną wysokość */
+}
+
+.align-bottom > div {
+    width: 100%; /* Opcjonalnie: Dopasowanie zawartości do pełnej szerokości */
+}
+
+.leaflet-container a {
+    margin-top: 4px !important;
+    color: #141F34 !important;
+    line-height: 26px !important;
+    font-weight: 400 !important;
+}
+
+.splide__arrow {
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex
+;
+    height: 4em !important;
+    -ms-flex-pack: center;
+    justify-content: center;
+    opacity: .7;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+    height: 5em;
+    color: white !important;
+}
+
+button.splide__arrow svg {
+    color: red;
+    fill: white;
+    margin-top: 0px;
+    width: 21px;
+    height: auto;
+    overflow: visible;
+}
+
+button.splide__arrow--next svg {
+    margin-top: 0px;
+    width: 21px;
+    height: auto;
+    overflow: visible;
+}
+
+.splide__pagination {
+    display: none !important;
+}
+
+.asarinos-offer {
+    font-size: 16px;
+    background: #2C2F50;
+    padding: 22px;
+    color: white;
+}
+
+.asarinos-offer b {
+    font-size: 18px;
+    line-height: 38px;
+    color: #EAC187;
+}
+
+.asarinos-offer-description {
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 16px !important;
+    line-height: 30px;
+}
+
+.asarinos-contact b {
+    display: block;
+}
+
+.asarinos-contact {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+li.splide__slide {
+    background: white;
+}
+
+/* for max width 600px */
+@media (max-width: 600px) {
+    #search_results .property {
+        display: block;
+        width: 100%;
+    }
+
+    #search_results .picture {
+        width: 100%;
+    }
+
+    .property .extra-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.sssplide__slide img {
+    vertical-align: bottom;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+@media (max-width: 415px) {
+    span.per_meter {
+        display: block;
+        padding: 10px;
+    }
+}
+
+a.front-photos {
+    width: auto;
+    display: contents;
+}
+
+a.pdf-download {
+    color: #EAC187 !important;
+}
+
+
+.elementor-row {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.elementor-column.elementor-col-70 {
+    flex: 0 0 70%;
+}
+
+.elementor-column.elementor-col-30 {
+    flex: 0 0 30%;
+    min-width: 300px;
+}
+
+.info-content {
+    height: 100%;
+}
+
+.info-row {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.info-row:last-child {
+    margin-bottom: 0;
+}
+
+.info-row b {
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .elementor-row {
+        flex-direction: column;
+    }
+
+    .elementor-column.elementor-col-70,
+    .elementor-column.elementor-col-30 {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+}
+
+.search-form {
+    width: 100%;
+}
+
+.columns-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-wrapper {
+    flex: 1;
+}
+
+.search-button-container {
+    padding: 0 10px;
+}
+
+.search-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
