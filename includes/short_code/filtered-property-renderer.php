@@ -30,7 +30,7 @@ class AsarinosFilteredPropertyRenderer extends AsarinosPropertyRenderer
 
     private static function render_no_results()
     {
-?>
+    ?>
         <div class="asarinos-no-results">
             <div class="no-results-icon">🏠</div>
             <h3>Brak wyników</h3>
