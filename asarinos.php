@@ -31,6 +31,9 @@ require_once ASARINOS_PLUGIN_DIR . 'includes/asarinos/class-asarinos-shortcodes.
 // Include the refactored shortcode
 require_once ASARINOS_PLUGIN_DIR . 'main_page_shortcode.php';
 
+// Include the new filtered shortcode
+require_once ASARINOS_PLUGIN_DIR . 'filtered-properties-shortcode.php';
+
 // Initialize the plugin
 function asarinos_init()
 {
