@@ -34,7 +34,7 @@ class Asarinos_Admin
         add_submenu_page(
             'edit.php?post_type=property',
             'Property Shortcodes',
-            'Shortcodes',
+            'Krótkie kody',
             'manage_options',
             'asarinos-shortcodes',
             array($this, 'shortcodes_page')
